@@ -1,0 +1,48 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+
+}
+.SummaryText
+{
+  margin: auto;
+  width: 50%;
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+  margin-left: auto;
+  margin-right: auto;
+  positon: relative;
+
+}
+
+.row {
+
+  width: 50%;
+  margin-left: 37%;
+
+
+}
+
+.p
+{
+  width: 30%;
+}
+
+.CIC{
+
+  width: 200px;
+}
+
+.Laurier 
+{
+  width: 200px;
+}
