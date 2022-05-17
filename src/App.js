@@ -31,7 +31,7 @@ function App() {
     };
     
     
-const [Style, setStyle] = useState(mystyle); //For light/dark mode switching
+const [Style, setStyle] = useState(mystyle); //For light/dark mode switdddching
 const [CurrentPage, ChangePage]  = useState(Page); // To swithc between pagrd
 const [isDarkvar, ChangeLight ] = useState(isDark);
 
