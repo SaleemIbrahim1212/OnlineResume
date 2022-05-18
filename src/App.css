@@ -16,7 +16,7 @@ a{
 
 
 
-.BaneClass
+.ImageToggle
 {
     cursor: pointer;
 }
@@ -46,6 +46,13 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.MoveRight
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .footerDark

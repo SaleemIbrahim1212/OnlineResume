@@ -6,11 +6,6 @@ import './Education.css'
 
 function Education (props)
 {
-
-    
-
-    
-    
     
   return ( 
       <div>
