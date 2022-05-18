@@ -2,7 +2,7 @@ import './App.css';
 import React, {useState} from 'react';
 import Footer from './Footer.js'
 import DarkmodeToggle from './darkmodetoggle.webp'
-import LightmodeToggle from './lightmodetoggle.webp'
+import LightmodeToggle from './light-mode-toggle.png'
 import AboutSection from './AboutSection.js'
 import Projects from './Projects.js'
 import Experience from './Experience.js'
