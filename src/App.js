@@ -7,6 +7,7 @@ import AboutSection from './AboutSection.js'
 import Projects from './Projects.js'
 import Experience from './Experience.js'
 import Education from './Education.js'
+import { Button, Popup } from 'semantic-ui-react'
 
 
 
@@ -147,10 +148,10 @@ return (
 
      <div style={Style}  >
         <ul>
-          <li><a onClick= {ToAbout} >About </a></li>
-          <li><a  onClick= {ToProjects}>Projects</a></li>
-          <li><a onClick = {toEducation} >Education</a></li>
-          <li><a onClick = {ToExperience} >Experience</a></li>
+          <li className="List" > <a onClick= {ToAbout} >About </a></li>
+          <li className="List"> <a  onClick= {ToProjects}>Projects</a></li>
+          <li className="List" ><a onClick = {toEducation} >Education</a></li>
+          <li className="List" ><a onClick = {ToExperience} >Interests/Experiences</a></li>
           <li className="MoveRight"> <img src= {ImageVar} onClick ={LightMode} alt="Toggle" className = "ImageToggle"
          /> < /li>
         

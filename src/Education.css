@@ -1,9 +1,11 @@
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 25%;
+  width: 100%;
   padding: 5px;
-
+  display: flex;
+  justify-content: center;
+  border-color: green;
 }
 .SummaryText
 {
@@ -12,37 +14,14 @@
 
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-
-  margin-left: auto;
-  margin-right: auto;
-  positon: relative;
-
-}
-
-.row {
-
-  width: 50%;
-  margin-left: 37%;
-
-
-}
 
 .p
 {
   width: 30%;
 }
 
-.CIC{
+.Edpictures{
 
   width: 200px;
 }
 
-.Laurier 
-{
-  width: 200px;
-}

@@ -1,12 +1,5 @@
 import './App.css';
-import React, {useState} from 'react';
-import NavigationBar from './NavigationBar';
-import Footer from './Footer.js'
 import Saleem from './sibrahim.png';
-import Saleem2 from './saleem.jpg'
-import Bane from './bane.png'
-import Light from './light.png'
-
 import './About.css'
 
 
